@@ -1,0 +1,9 @@
+export const USERCART="USERCART"
+export const USEROTP="USEROTP"
+export const USERNAME="USERNAME"
+export const GETDATA = "GETDATA";
+export const DESDATA = "DESDATA";
+export const SORTDATA = "SORTDATA";
+export const BRANDFILTER = "BRANDFILTER";
+export const DISCOUNTFILTER = "DISCOUNTFILTER";
+export const CARTDATA = "CARTDATA";
