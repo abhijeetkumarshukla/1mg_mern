@@ -123,38 +123,7 @@ After submitting the payment details you will get `Payment Successful` or `Payme
   </tr>
 </table>
 
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/rameshmane7218/humane-shelf-7123.git
-```
-
-Go to the project directory
-
-```bash
-  cd humane-shelf-7123
-```
-
-Install dependencies for frontend as well as backend
-
-```bash
-  cd frontend
-  npm install
-```
-
-```bash
-  cd ../backend
-  npm install
-```
-
-Start the localhost server
-
-```bash
-  cd ../frontend
-  npm start
-```
+ 
 
 ## Deployed link
 
