@@ -159,7 +159,7 @@ const SingleProduct = ({ item, onClose, setQuery }) => {
           <Flex
             justifyContent={"space-between"}
             alignItems={"center"}
-            // gap={2}
+             
           >
             <Box
               pr={{ base: "10px", md: "20px" }}

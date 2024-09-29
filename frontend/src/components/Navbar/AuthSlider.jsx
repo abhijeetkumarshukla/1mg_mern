@@ -7,12 +7,10 @@ import pic_two from "../../assets/Navbar/auth/two.png";
 import pic_three from "../../assets/Navbar/auth/three.png";
 import pic_four from "../../assets/Navbar/auth/four.png";
 import pic_five from "../../assets/Navbar/auth/five.png";
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Slider from "react-slick";
-// import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 import { useState } from "react";
 
@@ -58,21 +56,7 @@ const AuthSlider = () => {
           </Box>
         ))}
       </Swiper>
-
-      {/* <Box> Text</Box> */}
-      {/* <Slider {...settings}>
-        {data.map((item, index) => (
-          <Box key={item.id}>
-            <Box>
-              <Image src={item.imgUrl} height="auto" />
-            </Box>
-            <Box>
-              <Heading>{item.title}</Heading>
-            </Box>
-            <Box>{item.text}</Box>
-          </Box>
-        ))}
-      </Slider> */}
+ 
     </Box>
   );
 };
